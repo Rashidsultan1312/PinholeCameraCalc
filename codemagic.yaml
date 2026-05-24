@@ -5,18 +5,18 @@ workflows:
     instance_type: mac_mini_m2
 
     integrations:
-      app_store_connect: CipherWheels
+      app_store_connect: PinholeCalc
 
     environment:
       xcode: latest
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.falconryweightlog
+        bundle_identifier: com.pinholecameracalc
       vars:
-        BUNDLE_ID: "com.falconryweightlog"
-        XCODE_PROJECT: "FalconryWeightLog.xcodeproj"
-        XCODE_SCHEME: "FalconryWeightLog"
-        APP_STORE_APPLE_ID: "6772775562"
+        BUNDLE_ID: "com.pinholecameracalc"
+        XCODE_PROJECT: "PinholeCalc.xcodeproj"
+        XCODE_SCHEME: "PinholeCalc"
+        APP_STORE_APPLE_ID: "6772789808"
 
     scripts:
       - name: Set up code signing
