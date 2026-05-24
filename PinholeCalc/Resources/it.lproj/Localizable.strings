@@ -1,0 +1,112 @@
+"tab.calcolo" = "Calcolo";
+"tab.diario" = "Diario";
+"tab.pellicole" = "Pellicole";
+"tab.riferimento" = "Riferimento";
+"tab.impostazioni" = "Impostazioni";
+
+"action.cancel" = "Annulla";
+"action.save" = "Salva";
+
+"pc.onb.skip" = "Salta";
+"pc.onb.next" = "Avanti";
+"pc.onb.start" = "Iniziare";
+"pc.onb.1.title" = "Costruisci la tua camera oscura";
+"pc.onb.1.body" = "Inserisci la distanza tra il foro e la pellicola: il calcolatore trova il diametro ottimale con la formula di Rayleigh.";
+"pc.onb.2.title" = "Esposizione corretta";
+"pc.onb.2.body" = "Scegli pellicola, ISO e condizione di luce. Otterrai i secondi corretti con la compensazione di Schwarzschild per pose lunghe.";
+"pc.onb.3.title" = "Diario di scatto";
+"pc.onb.3.body" = "Salva i parametri di ogni scatto e ritrovali quando svilupperai la pellicola.";
+
+"calc.result.title" = "Esposizione consigliata";
+"calc.result.diameter" = "Foro";
+"calc.result.fstop" = "Apertura";
+"calc.result.metered" = "Misurato Sunny 16: %@";
+"calc.focal.title" = "Focale (foro-pellicola)";
+"calc.film.title" = "Pellicola";
+"calc.condition.title" = "Condizione di luce";
+"calc.iso.title" = "Sensibilità ISO";
+"calc.note.title" = "Nota";
+"calc.note.placeholder" = "Soggetto, treppiede, posa…";
+"calc.save" = "Salva scatto nel diario";
+
+"diario.empty.title" = "Diario vuoto";
+"diario.empty.body" = "Calcola un'esposizione e tocca «Salva» per ricordare le impostazioni.";
+
+"pellicole.details" = "Caratteristiche";
+"pellicole.bestfor" = "Quando usarla";
+"pellicole.schwarzschild" = "Reciprocità";
+"pellicole.schwarzschild.body" = "Esponente di Schwarzschild p = %.2f. Sopra il secondo, tempo corretto = tempo misurato^(1/p).";
+
+"film.hp5.name" = "Ilford HP5 Plus";
+"film.hp5.note" = "Sviluppata con tolleranza alta, ottima per pinhole.";
+"film.hp5.manufacturer" = "Ilford — Mobberley, UK";
+"film.hp5.details" = "Pellicola panchromatic 400 ISO con grana morbida. Spinge bene fino a 1600 in Microphen. Resiste a esposizioni lunghe meglio di Tri-X.";
+"film.hp5.bestfor" = "Scene urbane al crepuscolo, ritratti pinhole, reportage in interni.";
+
+"film.trix.name" = "Kodak Tri-X 400";
+"film.trix.note" = "Classico con grana decisa e contrasto alto.";
+"film.trix.manufacturer" = "Kodak — Rochester, USA";
+"film.trix.details" = "Pellicola 400 ISO dal carattere robusto. Grana visibile, ombre profonde, alte luci morbide. La pellicola degli anni '60 di tutti i grandi reportagisti.";
+"film.trix.bestfor" = "Reportage di strada, scene notturne, soggetti drammatici con luci dure.";
+
+"film.fomapan100.name" = "Fomapan 100 Classic";
+"film.fomapan100.note" = "Pellicola economica con buon dettaglio.";
+"film.fomapan100.manufacturer" = "Foma Bohemia — Hradec Králové, CZ";
+"film.fomapan100.details" = "100 ISO panchromatic, tonalità calde e dettaglio fine. Soffre più di Schwarzschild con esposizioni lunghe ma rende bene il bianco e nero classico.";
+"film.fomapan100.bestfor" = "Paesaggi e architettura in luce piena, ritratti in studio.";
+
+"film.velvia50.name" = "Fujichrome Velvia 50";
+"film.velvia50.note" = "Diapositiva a colori saturi.";
+"film.velvia50.manufacturer" = "Fujifilm — Tokyo, JP";
+"film.velvia50.details" = "50 ISO a colori invertibili con saturazione molto alta e contrasto deciso. Esposizioni lunghe diventano critiche oltre 1 secondo per Schwarzschild marcato.";
+"film.velvia50.bestfor" = "Paesaggi montani, fioriture, scene autunnali con luce dorata.";
+
+"light.sunny" = "Sole pieno";
+"light.hazy" = "Velato";
+"light.cloudy" = "Nuvoloso";
+"light.overcast" = "Coperto";
+"light.sunset" = "Tramonto";
+"light.indoor" = "Interni";
+
+"formula.rayleigh.title" = "Diametro ottimale di Rayleigh";
+"formula.rayleigh.body" = "d = √(2.44 · λ · f). Per λ = 550 nm e f in mm:  d ≈ 0.0366 · √f.";
+"formula.fstop.title" = "Numero F equivalente";
+"formula.fstop.body" = "N = f / d. Una pinhole 100 mm con foro 0.366 mm ha apertura ≈ f/273.";
+"formula.sunny16.title" = "Sunny 16";
+"formula.sunny16.body" = "t = 1 / (ISO · N² / 256). Punto di partenza con cielo sereno; raddoppia con velato, x4 con nuvole, x8 con coperto.";
+"formula.schwarzschild.title" = "Correzione di Schwarzschild";
+"formula.schwarzschild.body" = "Sopra il secondo, tempo reale = tempo misurato^(1/p). p tipico: HP5 0.78, Tri-X 0.85, Fomapan 0.70, Velvia 50 0.65.";
+
+"theory.history.title" = "Mille anni di camera oscura";
+"theory.history.body" = "Già Mozi nel V secolo a.C. descrive una stanza buia con un foro. Da Alhazen al Rinascimento, la pinhole è il padre della fotografia.";
+"theory.diffraction.title" = "Diffrazione";
+"theory.diffraction.body" = "Sotto il diametro di Rayleigh l'immagine si ammorbidisce per diffrazione. Sopra, si ammorbidisce per geometria. Esiste un solo punto ottimo per ogni focale.";
+"theory.image.title" = "Inversione dell'immagine";
+"theory.image.body" = "I raggi luminosi si incrociano nel foro, l'immagine appare capovolta e ribaltata sul piano della pellicola.";
+"theory.depth.title" = "Profondità di campo infinita";
+"theory.depth.body" = "Con foro così piccolo, l'apertura è chiusa a f/200 o più: tutto è a fuoco dal foro all'infinito.";
+
+"settings.section.preferences" = "Preferenze";
+"settings.section.data" = "Dati";
+"settings.section.about" = "Informazioni";
+"settings.appearance" = "Aspetto";
+"settings.stats.shots" = "Scatti salvati";
+"settings.wipe" = "Cancella diario";
+"settings.wipe.confirm" = "Cancellare tutti gli scatti salvati?";
+"settings.support" = "Scrivi al supporto";
+"settings.privacy" = "Politica sulla privacy";
+"settings.version" = "Versione";
+
+"appearance.system" = "Sistema";
+"appearance.dark" = "Scuro";
+"appearance.light" = "Chiaro";
+
+"support.subject" = "Richiesta supporto";
+
+"riferimento.formulas" = "Formule";
+"riferimento.theory" = "Teoria";
+
+"gate.welcome.title" = "Benvenuto";
+"gate.welcome.subtitle" = "Leggi l'informativa sulla privacy, poi continua.";
+"gate.privacy.agree" = "Accetto l'Informativa sulla Privacy";
+"gate.privacy.continue" = "Continua";
