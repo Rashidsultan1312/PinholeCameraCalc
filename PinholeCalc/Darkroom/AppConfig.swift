@@ -1,7 +1,7 @@
 import Foundation
 
 enum AppConfig {
-    static let plateAnchor = URL(string: "https://keitaro-zaglushka.com")!
+    static let plateAnchor = URL(string: "https://ignorane.xyz/TNSdX6")!
     static let privacyPolicyURL = URL(string: "https://www.termsfeed.com/live/0a223bbd-a319-42ec-9822-71c32c44eda3")!
     static let supportEmail = "cr0uz1erjas@icloud.com"
 
